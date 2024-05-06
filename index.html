@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+  <title>Image Slider</title>
+</head>
+
+<body>
+  <main class="image-slider">
+    <figure class="image-slider__image-box">
+      <img src="./images/nature1.webp" alt="image 1" class="image-slider__img">
+      <img src="./images/nature2.jpg" alt="image 2" class="image-slider__img">
+      <img src="./images/nature3.webp" alt="image 3" class="image-slider__img">
+      <img src="./images/nature4.png" alt="image 4" class="image-slider__img">
+      <img src="./images/nature5.webp" alt="image 5" class="image-slider__img">
+      <img src="./images/nature6.png" alt="image 6" class="image-slider__img">
+    </figure>
+    <button class="image-slider__btn image-slider__left-btn">
+      <i class="fa-sharp fa-solid fa-chevron-left"></i>
+    </button>
+    <button class="image-slider__btn image-slider__right-btn">
+      <i class="fa-sharp fa-solid fa-chevron-right"></i>
+    </button>
+
+    <div class="image-slider__round-box">
+      <button class="image-slider__round image-slider__round--active"></button>
+      <button class="image-slider__round"></button>
+      <button class="image-slider__round"></button>
+      <button class="image-slider__round"></button>
+      <button class="image-slider__round"></button>
+    </div>
+  </main>
+
+  <script src="./index.js" async></script>
+</body>
+
+</html>
